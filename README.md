@@ -2,13 +2,11 @@
 
 ## Contexto
 
-Este repositório demonstra, de forma simples, como o **Kiro governa o comportamento de agentes de IA** por meio de **Powers, Steering e Agent Hooks**.
+Este repositório mostra como o Kiro garante que a IA se comporte
+do jeito que o negócio espera.
 
-O Amazon Bedrock é utilizado apenas como **motor de IA** neste exemplo.
-O foco da demo não está no modelo, mas na **camada de controle, governança e comportamento criada pelo Kiro**.
-
-O objetivo não é performance ou arquitetura,
-mas sim entendimento.
+O modelo de IA apenas gera a resposta.
+O Kiro define as regras.
 
 ---
 
