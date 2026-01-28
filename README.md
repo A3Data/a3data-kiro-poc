@@ -2,35 +2,55 @@
 
 ## Contexto
 
-Este repositório demonstra, de forma simples, como o Kiro utiliza
-Powers e Steering para controlar o comportamento de uma IA integrada
-ao Amazon Bedrock.
+Este repositório demonstra, de forma simples, como o **Kiro governa o comportamento de agentes de IA** por meio de **Powers, Steering e Agent Hooks**.
+
+O Amazon Bedrock é utilizado apenas como **motor de IA** neste exemplo.
+O foco da demo não está no modelo, mas na **camada de controle, governança e comportamento criada pelo Kiro**.
 
 O objetivo não é performance ou arquitetura,
 mas sim entendimento.
 
-## O que vamos aprender
-- Como criar um Power no Kiro
-- Como usar Steering para controlar respostas da IA
-- Como integrar conceitualmente com o Amazon Bedrock
+---
 
-## Caso de Uso
+## O que vamos aprender
+- Como criar um **Power** no Kiro
+- Como usar **Steering** para definir regras claras de comportamento
+- Como **Agent Hooks** podem validar, ajustar ou proteger respostas
+- Como o Kiro se posiciona como camada de governança sobre modelos de IA
+- Como integrar conceitualmente com o Amazon Bedrock (ou qualquer outro modelo)
+
+---
+
+## Caso de Uso – Power no Kiro
 
 O usuário solicita um resumo de um texto.
-O Kiro garante que a resposta:
-    - Seja curta
-    - Use linguagem simples
-    - Tenha foco em negócio
 
-##  Como usar a demo no Kiro
+Independentemente do modelo de IA utilizado, o Kiro garante que a resposta:
+- Seja curta
+- Use linguagem simples
+- Tenha foco em negócio
+
+Essas regras não estão no prompt,
+mas sim no **Power e no Steering**, que governam o comportamento do agente.
+
+---
+
+## Como usar o Power
 1. Clone este repositório
-2. No Kiro IDE, abra o painel de Powers
+2. No Kiro IDE, abra o painel de **Powers**
 3. Adicione o Power via caminho local ou GitHub
-4. Inicie uma conversa usando palavras como:
-   "resuma", "bedrock", "resumo de texto"
+4. Inicie uma conversa usando termos como:
+   - "resuma"
+   - "resumo de texto"
+   - "bedrock"
+
+Observe como o comportamento da resposta é controlado pelo Kiro,
+independentemente da pergunta.
+
+---
 
 ## Estrutura do Projeto
-```
+```txt
 kiro-bedrock-demo/
 │
 ├── README.md
@@ -41,6 +61,8 @@ kiro-bedrock-demo/
         └── resumo-simples.md
 ```
 
-
-<i>No Kiro, você não programa prompts.
-Você cria poderes e governa comportamentos. - Divirta-se</i>
+<i>
+No Kiro, você não programa prompts.  
+Você cria poderes, define regras e governa comportamentos.  
+Divirta-se.
+</i>
