@@ -28,3 +28,19 @@ O Kiro garante que a resposta:
 3. Adicione o Power via caminho local ou GitHub
 4. Inicie uma conversa usando palavras como:
    "resuma", "bedrock", "resumo de texto"
+
+## Estrutura do Projeto
+```
+kiro-bedrock-demo/
+│
+├── README.md
+│
+└── power-bedrock-summary/
+    ├── POWER.md
+    └── steering/
+        └── resumo-simples.md
+```
+
+
+<i>No Kiro, você não programa prompts.
+Você cria poderes e governa comportamentos. - Divirta-se</i>
