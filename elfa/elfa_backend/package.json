@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-agents-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Node.js + Express para APIs de Agentes de IA",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/**/*.test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": ["nodejs", "express", "agents", "llm", "ai", "boilerplate"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

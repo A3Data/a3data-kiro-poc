@@ -1,0 +1,18 @@
+{
+  "name": "elfa-backend-api",
+  "displayName": "Elfa API",
+  "version": "1.0.0",
+  "description": "API Elfa para consulta de estoque e verificação de disponibilidade",
+  "keywords": ["elfa", "api", "estoque", "disponibilidade"],
+  "author": "Elfa",
+  "steering": [
+    {
+      "file": "integration-guide.md",
+      "description": "Guia de integração"
+    },
+    {
+      "file": "examples.md",
+      "description": "Exemplos de uso"
+    }
+  ]
+}
