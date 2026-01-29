@@ -1,7 +1,5 @@
 <img width="120" height="37" alt="kiro-logo-wordmark" src="https://github.com/user-attachments/assets/03885a25-692d-4463-94ad-9ae89e7392a7" />
 
-# POC Kiro — A3
-
 ## Contexto
 
 Esta POC demonstra como o **Kiro** pode ser utilizado pela **A3** como
