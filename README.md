@@ -2,7 +2,7 @@
 
 ## Contexto
 
-Esta POC demonstra como o **Kiro** pode ser utilizado pela **A3** como
+Este repositório demonstra como o **Kiro** pode ser utilizado pela **A3** como
 uma **camada de governança, controle e padronização de comportamento de IA**,
 independente do modelo utilizado (Amazon Bedrock, OpenAI, etc).
 
@@ -16,7 +16,7 @@ com processos corporativos.
 
 ---
 
-## Objetivo da POC
+## Objetivo
 
 Demonstrar, de forma prática, que o Kiro permite:
 
@@ -25,18 +25,6 @@ Demonstrar, de forma prática, que o Kiro permite:
 - Reutilizar comportamentos em múltiplos casos de uso
 - Garantir consistência entre diferentes modelos de IA
 - Evoluir agentes de forma segura e auditável
-
----
-
-## O que será demonstrado
-
-Nesta POC, exploramos os principais conceitos do Kiro:
-
-- **Powers** como contratos de capacidade
-- **Steering** como regras explícitas de comportamento
-- **Agent Hooks** como validações e proteções adicionais
-- Governança sobre respostas de IA
-- Integração conceitual com modelos via Amazon Bedrock
 
 ---
 
